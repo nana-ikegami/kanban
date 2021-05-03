@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  # ここにtopコントローラーのindexアクションのルーティングを追加する
-  get 'top/index'
+  # この行を編集する
+  root 'top#index'
 end
