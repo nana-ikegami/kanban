@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  # この行を編集する
+  devise_for :users
   root 'top#index'
 end
