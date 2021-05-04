@@ -6,4 +6,4 @@ class User < ApplicationRecord
 
   # この1行を追加
   validates :name, presence: true, length: { maximum: 20 }
-en
+end
