@@ -11,8 +11,7 @@
   </head>
 
   <body>
-    <%# <header>...</header>の間のコードを消して下の一行に入れ替える %>
-    <%= render 'partial/header' %>
+    <%= render 'partial/header' if current_user %>
 
     <% if flash[:notice] %>
       <div class="alert alert-info">
@@ -24,7 +23,7 @@
         <%= flash[:alert] %>
       </div>
     <% end %>
-    
+
     <%= yield %>
   </body>
 </html>
