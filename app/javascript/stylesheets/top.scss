@@ -25,16 +25,17 @@
           font-size: 20px;
           margin: 0;
         }
-
-        /* ==========ここから追加する========== */
         &_action {
           .fa-pen, .fa-trash {
             font-size: 18px;
             color: #8c8c8c;
           }
-        }
-        /* ==========ここまで追加する========== */
 
+          .fa-trash {
+            margin-right: 10px;
+          }
+
+        }
       }
     }
   }
